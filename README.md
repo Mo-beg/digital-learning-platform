@@ -7,7 +7,7 @@
 
 ## 📸 Preview
 
-> ![alt text](image-1.png)
+> ![LearnHub Homepage](preview.png)
 
 ---
 
