@@ -7,7 +7,7 @@
 
 ## 📸 Preview
 
-> *(Add a screenshot of your homepage here after uploading)*
+> ![alt text](image-1.png)
 
 ---
 
