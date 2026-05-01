@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40">
+  <!-- Graduation cap icon -->
+  <polygon points="20,10 36,17 20,24 4,17" fill="#f59e0b"/>
+  <rect x="33" y="17" width="2" height="10" fill="#f59e0b"/>
+  <ellipse cx="34" cy="27" rx="3" ry="2" fill="#d97706"/>
+  <!-- Book body -->
+  <rect x="6" y="22" width="18" height="14" rx="2" fill="#2563eb"/>
+  <rect x="13" y="22" width="2" height="14" fill="#1d4ed8"/>
+  <!-- Text -->
+  <text x="44" y="28" font-family="Arial, sans-serif" font-weight="800" font-size="18" fill="#3b82f6" letter-spacing="0.3">Learn</text>
+  <text x="97" y="28" font-family="Arial, sans-serif" font-weight="800" font-size="18" fill="#f59e0b" letter-spacing="0.3">Hub</text>
+</svg>

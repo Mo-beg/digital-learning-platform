@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #0b1220);
+    color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #1e293b;
+    padding: 16px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.08);
+}
+
+.logo a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 0 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #3b82f6;
+}
+
+/* BUTTON */
+.btn {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    border: none;
+    padding: 12px 26px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.5);
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    color: white;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e2e8f0;
+}
+
+/* SECTIONS */
+section {
+    padding: 70px 60px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+/* FEATURED SECTION */
+.featured-card {
+    background: #243247;
+    padding: 60px;
+    border-radius: 24px;
+    text-align: center;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4), 0 0 40px rgba(59,130,246,0.08);
+    transition: 0.4s ease;
+}
+
+.featured-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5), 0 0 60px rgba(59,130,246,0.15);
+}
+
+.featured-card h3 {
+    color: #3b82f6;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.featured-card p {
+    color: #e2e8f0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* GRIDS */
+.course-grid,
+.category-grid,
+.path-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.course-card,
+.category-card,
+.path-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(51,65,85,0.5);
+    transition: 0.4s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.course-card:hover,
+.category-card:hover,
+.path-card:hover {
+    transform: translateY(-6px);
+    border-color: #3b82f6;
+    box-shadow: 0 15px 35px rgba(59,130,246,0.15);
+}
+
+.course-card h3,
+.category-card h3,
+.path-card h3 { color: #ffffff; margin-bottom: 10px; }
+
+.course-card p,
+.category-card p,
+.path-card p { color: #cbd5e1; margin-top: 8px; font-size: 15px; }
+
+/* CATEGORY ICON */
+.category-card i {
+    font-size: 30px;
+    color: #3b82f6;
+    margin-bottom: 12px;
+    display: block;
+}
+
+/* CTA */
+.cta {
+    background: linear-gradient(135deg, #1e293b, #243247);
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px 60px;
+    padding: 60px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.cta h2 { margin-bottom: 25px; }
+
+.footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    padding: 0;
+}
+
+.footer-content {
+    padding: 40px 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer h4 {
+    color: #3b82f6;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #cbd5e1;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover { color: #3b82f6; }
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #cbd5e1;
+}
+
+/* Darker copyright bar — visually separate from upper footer */
+.footer-bottom {
+    background: #020913;
+    width: 100%;
+    padding: 16px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #64748b;
+    border-top: 2px solid #1e3a5f;
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: 0.3px;
+}

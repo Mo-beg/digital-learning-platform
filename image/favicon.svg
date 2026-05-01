@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#1e293b"/>
+  <!-- Book -->
+  <rect x="5" y="10" width="14" height="17" rx="2" fill="#2563eb"/>
+  <rect x="9" y="10" width="9" height="17" rx="1.5" fill="#1d4ed8"/>
+  <line x1="13" y1="10" x2="13" y2="27" stroke="#3b82f6" stroke-width="1"/>
+  <!-- Graduation cap -->
+  <polygon points="13,6 21,9.5 13,13 5,9.5" fill="#f59e0b"/>
+  <line x1="21" y1="9.5" x2="21" y2="14" stroke="#f59e0b" stroke-width="1.2"/>
+  <circle cx="21" cy="14.8" r="1.2" fill="#f59e0b"/>
+  <!-- L initial on book spine -->
+  <text x="11" y="21" font-family="Arial" font-weight="900" font-size="7" fill="#93c5fd">L</text>
+</svg>
