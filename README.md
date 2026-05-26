@@ -153,7 +153,10 @@ digital-learning-platform/
 ## 👨‍💻 Developer
 
 **Mo-beg**  
+**mahnoor-codesss** 
+**summaiyasaeed36**  
 ICAT Project — NUTECH University  
+
 
 ---
 
